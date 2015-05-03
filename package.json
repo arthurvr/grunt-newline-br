@@ -19,6 +19,7 @@
     "index.js"
   ],
   "keywords": [
+    "gruntplugin",
     "newline",
     "html",
     "br",
