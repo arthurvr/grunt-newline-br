@@ -1,6 +1,6 @@
 {
   "name": "grunt-newline-br",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prepend a `<br>` tag before newlines",
   "license": "MIT",
   "repository": "arthurvr/grunt-newline-br",
