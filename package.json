@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && grunt && mocha"
+    "test": "xo && grunt && ava test/test.js"
   },
   "files": [
     "index.js"
@@ -33,13 +33,7 @@
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
-    "mocha": "*",
+    "ava": "*",
     "xo": "*"
-  },
-  "xo": {
-    "envs": [
-      "node",
-      "mocha"
-    ]
   }
 }

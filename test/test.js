@@ -1,9 +1,10 @@
 'use strict';
 var fs = require('fs');
 var path = require('path');
-var assert = require('assert');
+var test = require('ava');
 
-it('Should prepend newlines with a `<br>`', function () {
+test('Should prepend newlines with a `<br>`', function (t) {
 	var result = fs.readFileSync(path.join(__dirname, 'tmp/fixture.txt'));
-	assert.equal(result.toString(), 'foo<br>\nbar<br>\n');
+	t.is(result.toString(), 'foo<br>\nbar<br>\n');
+	t.end();
 });
