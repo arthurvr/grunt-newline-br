@@ -13,7 +13,7 @@ $ npm install --save grunt-newline-br
 ## Usage
 
 ```js
-module.exports = function (grunt) {
+module.exports = grunt => {
 	grunt.initConfig({
 		newlineBr: {
 			test: {
